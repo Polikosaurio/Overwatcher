@@ -1,0 +1,4211 @@
+{
+  "heroes": {
+    "Tracer": {
+  "role": "Damage",
+  "archetype": [
+    "Dive",
+    "Flanker",
+    "Assassin"
+  ],
+  "mobility": 5,
+  "survivability": 3,
+  "mechanical_difficulty": 5,
+  "team_dependency": 2,
+  "damage_profile": {
+    "shield_break": 2,
+    "tank_pressure": 4,
+    "squishy_pressure": 5,
+    "range": 1,
+    "burst": 4,
+    "sustain": 2,
+    "poke": 1
+  },
+  "weakness_profile": {
+    "dive_vulnerability": 1,
+    "flank_vulnerability": 1,
+    "cc_susceptibility": 5,
+    "los_dependency": 3
+  },
+  "es": "Gestiona tus blinks para tener siempre uno de reserva. Prioriza a los Supports aislados y usa el Recall para limpiar debuffs.",
+  "en": "Manage your blinks to always have one in reserve. Prioritize isolated Supports and use Recall to cleanse debuffs.",
+  "counters": {
+    "Zenyatta": {
+      "score": 5,
+      "type": "low_mobility_target"
+    },
+    "Widowmaker": {
+      "score": 5,
+      "type": "sneak_flank"
+    },
+    "Ana": {
+      "score": 4,
+      "type": "skill_bait"
+    },
+    "Bastion": {
+      "score": 4,
+      "type": "hitbox_farm"
+    },
+    "Orisa": {
+      "score": 3,
+      "type": "tank_pressure"
+    },
+    "Reinhardt": {
+      "score": 4,
+      "type": "slow_cant_deflect"
+    },
+    "Hanzo": {
+      "score": 3,
+      "type": "skill_bait"
+    },
+    "Mercy": {
+      "score": 4,
+      "type": "chase_down"
+    },
+    "Lifeweaver": {
+      "score": 5,
+      "type": "huge_hitbox"
+    },
+    "Sigma": {
+      "score": 3,
+      "type": "shield_bypass"
+    },
+    "Ashe": {
+      "score": 3,
+      "type": "dive_jump"
+    },
+    "Baptiste": {
+      "score": 3,
+      "type": "skill_bait"
+    }
+  },
+  "countered_by": {
+    "Cassidy": {
+      "score": 5,
+      "type": "hindered_grenade"
+    },
+    "Torbjorn": {
+      "score": 5,
+      "type": "turret_auto_aim"
+    },
+    "Illari": {
+      "score": 4,
+      "type": "turret_zoning"
+    },
+    "Pharah": {
+      "score": 5,
+      "type": "range_dominance"
+    },
+    "Echo": {
+      "score": 4,
+      "type": "aerial_advantage"
+    },
+    "Kiriko": {
+      "score": 4,
+      "type": "headshot_risk"
+    },
+    "Brigitte": {
+      "score": 4,
+      "type": "shield_bash_deterrent"
+    },
+    "Sombra": {
+      "score": 3,
+      "type": "hack_disruption"
+    },
+    "Roadhog": {
+      "score": 4,
+      "type": "hook_punish"
+    },
+    "Winston": {
+      "score": 3,
+      "type": "bubble_isolation"
+    },
+    "Junkrat": {
+      "score": 3,
+      "type": "trap_turret"
+    },
+    "Mei": {
+      "score": 3,
+      "type": "headshot_on_iceblock"
+    }
+  },
+  "synergies": {
+    "Winston": {
+      "score": 5,
+      "type": "dive_coordination"
+    },
+    "Wrecking Ball": {
+      "score": 5,
+      "type": "slam_setup"
+    },
+    "Sombra": {
+      "score": 5,
+      "type": "target_focus"
+    },
+    "Genji": {
+      "score": 4,
+      "type": "coordinated_dive"
+    },
+    "Zenyatta": {
+      "score": 5,
+      "type": "harmony_orb"
+    },
+    "Lucio": {
+      "score": 4,
+      "type": "speed_engage"
+    },
+    "Kiriko": {
+      "score": 4,
+      "type": "dive_followup"
+    },
+    "Doomfist": {
+      "score": 4,
+      "type": "dive_coordination"
+    },
+    "D.Va": {
+      "score": 4,
+      "type": "matrix_eat"
+    },
+    "Ana": {
+      "score": 3,
+      "type": "long_range_heal"
+    },
+    "Brigitte": {
+      "score": 3,
+      "type": "bodyguard_peel"
+    }
+  },
+  "sub_role": "Flanker",
+  "health": 175
+},
+
+
+
+
+    "Reaper": {
+  "role": "Damage",
+  "archetype": [
+    "Brawl",
+    "Flanker",
+    "Tank-Buster",
+    "Self-Sustain",
+    "Punisher"
+  ],
+  "mobility": 3,
+  "survivability": 4,
+  "mechanical_difficulty": 2,
+  "team_dependency": 3,
+  "damage_profile": {
+    "shield_break": 4,
+    "tank_pressure": 5,
+    "squishy_pressure": 4,
+    "range": 1,
+    "burst": 5,
+    "sustain": 5,
+    "poke": 1
+  },
+  "weakness_profile": {
+    "dive_vulnerability": 2,
+    "flank_vulnerability": 2,
+    "cc_susceptibility": 4,
+    "los_dependency": 5
+  },
+  "es": "Flanquea para acercarte sin usar Wraith Form; úsala solo para escapar. Tu objetivo principal son los tanques.",
+  "en": "Flank to get closer without wasting Wraith Form; only use it for escapes. Your main target is tanks.",
+  "counters": {
+    "Winston": {
+      "score": 5,
+      "type": "hitbox_farm"
+    },
+    "Roadhog": {
+      "score": 5,
+      "type": "tank_pressure"
+    },
+    "Reinhardt": {
+      "score": 4,
+      "type": "shield_melter"
+    },
+    "Mauga": {
+      "score": 5,
+      "type": "crit_farm"
+    },
+    "Zenyatta": {
+      "score": 4,
+      "type": "low_mobility_target"
+    },
+    "Ramattra": {
+      "score": 4,
+      "type": "huge_hitbox"
+    },
+    "Doomfist": {
+      "score": 3,
+      "type": "close_range_pressure"
+    },
+    "Bastion": {
+      "score": 3,
+      "type": "huge_hitbox"
+    },
+    "Lifeweaver": {
+      "score": 4,
+      "type": "easy_dive"
+    },
+    "Orisa": {
+      "score": 3,
+      "type": "tank_pressure"
+    },
+    "Brigitte": {
+      "score": 3,
+      "type": "shield_shredder"
+    }
+  },
+  "countered_by": {
+    "Pharah": {
+      "score": 5,
+      "type": "range_advantage"
+    },
+    "Echo": {
+      "score": 5,
+      "type": "aerial_dominance"
+    },
+    "Ana": {
+      "score": 5,
+      "type": "anti_nade_shutdown"
+    },
+    "Widowmaker": {
+      "score": 4,
+      "type": "open_sightlines"
+    },
+    "Hanzo": {
+      "score": 4,
+      "type": "range_headshot"
+    },
+    "Cassidy": {
+      "score": 4,
+      "type": "hindered_grenade"
+    },
+    "D.Va": {
+      "score": 4,
+      "type": "matrix_ult_eat"
+    },
+    "Sigma": {
+      "score": 4,
+      "type": "kinetic_grasp_absorb"
+    },
+    "Sombra": {
+      "score": 3,
+      "type": "hack_escape"
+    },
+    "Junkrat": {
+      "score": 3,
+      "type": "range_splash"
+    },
+    "Ashe": {
+      "score": 3,
+      "type": "range_outclass"
+    },
+    "Baptiste": {
+      "score": 3,
+      "type": "immortality_lamp"
+    }
+  },
+  "synergies": {
+    "Lucio": {
+      "score": 5,
+      "type": "speed_engage"
+    },
+    "Zarya": {
+      "score": 5,
+      "type": "bubble_engage"
+    },
+    "Kiriko": {
+      "score": 5,
+      "type": "suzu_cleanse_nade"
+    },
+    "Mauga": {
+      "score": 4,
+      "type": "close_combat_buddies"
+    },
+    "Junker Queen": {
+      "score": 4,
+      "type": "speed_rush_meta"
+    },
+    "Moira": {
+      "score": 4,
+      "type": "brawl_healing_output"
+    },
+    "Ana": {
+      "score": 3,
+      "type": "nano_rein"
+    },
+    "Mei": {
+      "score": 3,
+      "type": "wall_trapping"
+    }
+  },
+  "sub_role": "Flanker",
+  "health": 300
+},
+
+
+
+
+    "Widowmaker": {
+  "role": "Damage",
+  "archetype": [
+    "Sniper",
+    "Pick",
+    "Marksman",
+    "Hitscan",
+    "Recon"
+  ],
+  "mobility": 2,
+  "survivability": 1,
+  "mechanical_difficulty": 5,
+  "team_dependency": 3,
+  "damage_profile": {
+    "shield_break": 1,
+    "tank_pressure": 2,
+    "squishy_pressure": 5,
+    "range": 5,
+    "burst": 5,
+    "sustain": 1,
+    "poke": 5
+  },
+  "weakness_profile": {
+    "dive_vulnerability": 5,
+    "flank_vulnerability": 5,
+    "cc_susceptibility": 2,
+    "los_dependency": 5
+  },
+  "es": "Cambia de posición después de cada baja para evitar ser localizado. Usa la mina venenosa en rutas de flanqueo para cubrir tus espaldas.",
+  "en": "Change position after each kill to avoid being pinpointed. Use the venom mine on flank routes to watch your back.",
+  "counters": {
+    "Pharah": {
+      "score": 5,
+      "type": "easy_air_target"
+    },
+    "Mercy": {
+      "score": 4,
+      "type": "static_res_target"
+    },
+    "Junkrat": {
+      "score": 4,
+      "type": "range_dominance"
+    },
+    "Zenyatta": {
+      "score": 5,
+      "type": "low_mobility_target"
+    },
+    "Ana": {
+      "score": 4,
+      "type": "out_range_snipe"
+    },
+    "Bastion": {
+      "score": 4,
+      "type": "snipe_static"
+    },
+    "Torbjorn": {
+      "score": 4,
+      "type": "easy_turret_kill"
+    },
+    "Lifeweaver": {
+      "score": 4,
+      "type": "huge_hitbox"
+    },
+    "Hanzo": {
+      "score": 3,
+      "type": "range_superiority"
+    },
+    "Ashe": {
+      "score": 3,
+      "type": "range_outclass"
+    },
+    "Echo": {
+      "score": 3,
+      "type": "hitscan_air_control"
+    },
+    "Baptiste": {
+      "score": 3,
+      "type": "headshot_pick"
+    }
+  },
+  "countered_by": {
+    "Winston": {
+      "score": 5,
+      "type": "dive_jump"
+    },
+    "Sombra": {
+      "score": 5,
+      "type": "stealth_ambush"
+    },
+    "Genji": {
+      "score": 4,
+      "type": "deflect_dash"
+    },
+    "Wrecking Ball": {
+      "score": 4,
+      "type": "piledriver_combo"
+    },
+    "D.Va": {
+      "score": 5,
+      "type": "matrix_denial"
+    },
+    "Tracer": {
+      "score": 4,
+      "type": "one_clip_kill"
+    },
+    "Kiriko": {
+      "score": 4,
+      "type": "headshot_risk"
+    },
+    "Lucio": {
+      "score": 4,
+      "type": "dive_harass"
+    },
+    "Reaper": {
+      "score": 3,
+      "type": "invisible_approach"
+    },
+    "Doomfist": {
+      "score": 4,
+      "type": "dive_pressure"
+    },
+    "Sigma": {
+      "score": 3,
+      "type": "shield_snipe"
+    },
+    "Reinhardt": {
+      "score": 3,
+      "type": "shield_block"
+    }
+  },
+  "synergies": {
+    "Mercy": {
+      "score": 5,
+      "type": "damage_boost_oneshot"
+    },
+    "Sigma": {
+      "score": 4,
+      "type": "shield_safety"
+    },
+    "Hanzo": {
+      "score": 4,
+      "type": "sonar_vision"
+    },
+    "Zenyatta": {
+      "score": 4,
+      "type": "discord_shred"
+    },
+    "Baptiste": {
+      "score": 4,
+      "type": "barrier_window"
+    },
+    "Lifeweaver": {
+      "score": 5,
+      "type": "grip_rescue"
+    },
+    "Winston": {
+      "score": 3,
+      "type": "target_focus"
+    },
+    "Ramattra": {
+      "score": 3,
+      "type": "frontline_pressure"
+    }
+  },
+  "sub_role": "Sharpshooter",
+  "health": 225
+},
+
+    "Pharah": {
+  "role": "Damage",
+  "archetype": [
+    "Poke",
+    "Spam",
+    "Aerial",
+    "Projectile"
+  ],
+  "mobility": 4,
+  "survivability": 3,
+  "mechanical_difficulty": 3,
+  "team_dependency": 4,
+  "damage_profile": {
+    "shield_break": 4,
+    "tank_pressure": 3,
+    "squishy_pressure": 5,
+    "range": 4,
+    "burst": 4,
+    "sustain": 1,
+    "poke": 5
+  },
+  "weakness_profile": {
+    "dive_vulnerability": 2,
+    "flank_vulnerability": 2,
+    "cc_susceptibility": 2,
+    "los_dependency": 3
+  },
+  "es": "Usa el Concussive Blast para movilidad propia o para expulsar enemigos del mapa. Mantente cerca de coberturas aéreas.",
+  "en": "Use Concussive Blast for self-propelling or environmental kills. Stay near aerial cover.",
+  "counters": {
+    "Reaper": {
+      "score": 5,
+      "type": "height_advantage"
+    },
+    "Junkrat": {
+      "score": 5,
+      "type": "height_advantage"
+    },
+    "Mei": {
+      "score": 4,
+      "type": "cant_touch_this"
+    },
+    "Symmetra": {
+      "score": 5,
+      "type": "aerial_dominance"
+    },
+    "Reinhardt": {
+      "score": 5,
+      "type": "overhead_spam"
+    },
+    "Brigitte": {
+      "score": 4,
+      "type": "aerial_dominance"
+    },
+    "Torbjorn": {
+      "score": 3,
+      "type": "turret_clear"
+    },
+    "Bastion": {
+      "score": 3,
+      "type": "indirect_fire"
+    },
+    "Zenyatta": {
+      "score": 4,
+      "type": "ground_target"
+    },
+    "Lifeweaver": {
+      "score": 3,
+      "type": "overhead_spam"
+    }
+  },
+  "countered_by": {
+    "Widowmaker": {
+      "score": 5,
+      "type": "hitscan_sniper"
+    },
+    "Cassidy": {
+      "score": 5,
+      "type": "hitscan_midrange"
+    },
+    "Ashe": {
+      "score": 5,
+      "type": "hitscan_pressure"
+    },
+    "Soldier: 76": {
+      "score": 4,
+      "type": "hitscan_air_control"
+    },
+    "D.Va": {
+      "score": 4,
+      "type": "matrix_ult_eat"
+    },
+    "Ana": {
+      "score": 4,
+      "type": "aerial_tracking"
+    },
+    "Illari": {
+      "score": 5,
+      "type": "hitscan_support"
+    },
+    "Mauga": {
+      "score": 4,
+      "type": "aerial_tracking"
+    },
+    "Sombra": {
+      "score": 3,
+      "type": "hack_disruption"
+    },
+    "Echo": {
+      "score": 4,
+      "type": "aerial_contest"
+    },
+    "Baptiste": {
+      "score": 3,
+      "type": "hitscan_air"
+    }
+  },
+  "synergies": {
+    "Mercy": {
+      "score": 5,
+      "type": "pharmercy"
+    },
+    "Zenyatta": {
+      "score": 4,
+      "type": "harmony_orb_range"
+    },
+    "Echo": {
+      "score": 4,
+      "type": "flight_pair"
+    },
+    "Wrecking Ball": {
+      "score": 3,
+      "type": "slam_setup"
+    },
+    "Ana": {
+      "score": 4,
+      "type": "long_range_heal"
+    },
+    "Sigma": {
+      "score": 3,
+      "type": "poke_damage"
+    },
+    "Lifeweaver": {
+      "score": 4,
+      "type": "high_ground_platform"
+    }
+  },
+  "sub_role": "Recon",
+  "health": 225
+},
+
+
+
+
+    "Reinhardt": {
+  "role": "Tank",
+  "archetype": [
+    "Brawl",
+    "Anchor",
+    "Melee",
+    "Stalwart",
+    "Frontline",
+    "Engager"
+  ],
+  "mobility": 2,
+  "survivability": 4,
+  "mechanical_difficulty": 2,
+  "team_dependency": 5,
+  "damage_profile": {
+    "shield_break": 3,
+    "tank_pressure": 4,
+    "squishy_pressure": 5,
+    "range": 1,
+    "burst": 4,
+    "sustain": 4,
+    "poke": 1
+  },
+  "weakness_profile": {
+    "dive_vulnerability": 3,
+    "flank_vulnerability": 4,
+    "cc_susceptibility": 4,
+    "los_dependency": 5
+  },
+  "es": "No seas solo un escudo; alterna entre proteger y golpear para cargar tu Earthshatter. Cuidado con las cargas a larga distancia.",
+  "en": "Don't just be a shield; alternate between protecting and swinging to charge Earthshatter. Be careful with long-range charges.",
+  "counters": {
+    "Soldier: 76": {
+      "score": 4,
+      "type": "shield_block"
+    },
+    "Widowmaker": {
+      "score": 5,
+      "type": "shield_block"
+    },
+    "Zarya": {
+      "score": 3,
+      "type": "close_range_dominance"
+    },
+    "Sigma": {
+      "score": 4,
+      "type": "barrier_dominance"
+    },
+    "Ashe": {
+      "score": 4,
+      "type": "shield_block"
+    },
+    "Cassidy": {
+      "score": 3,
+      "type": "shield_protection"
+    },
+    "Hanzo": {
+      "score": 4,
+      "type": "shield_block"
+    },
+    "D.Va": {
+      "score": 3,
+      "type": "melee_pressure"
+    },
+    "Kiriko": {
+      "score": 3,
+      "type": "pin_punish"
+    },
+    "Illari": {
+      "score": 3,
+      "type": "shield_block"
+    }
+  },
+  "countered_by": {
+    "Reaper": {
+      "score": 5,
+      "type": "shield_melter"
+    },
+    "Bastion": {
+      "score": 5,
+      "type": "shield_shredder"
+    },
+    "Ana": {
+      "score": 5,
+      "type": "anti_nade_shutdown"
+    },
+    "Symmetra": {
+      "score": 4,
+      "type": "beam_charge_shield"
+    },
+    "Pharah": {
+      "score": 5,
+      "type": "overhead_spam"
+    },
+    "Echo": {
+      "score": 4,
+      "type": "range_advantage"
+    },
+    "Junkrat": {
+      "score": 4,
+      "type": "shield_pressure"
+    },
+    "Ramattra": {
+      "score": 4,
+      "type": "piercing_damage"
+    },
+    "Orisa": {
+      "score": 5,
+      "type": "cc_stop_charge"
+    },
+    "Mei": {
+      "score": 5,
+      "type": "wall_isolation"
+    },
+    "Tracer": {
+      "score": 4,
+      "type": "kite_pressure"
+    },
+    "Sombra": {
+      "score": 4,
+      "type": "hack_disruption"
+    }
+  },
+  "synergies": {
+    "Lucio": {
+      "score": 5,
+      "type": "speed_rush_meta"
+    },
+    "Ana": {
+      "score": 5,
+      "type": "nano_rein"
+    },
+    "Lifeweaver": {
+      "score": 4,
+      "type": "grip_rescue"
+    },
+    "Kiriko": {
+      "score": 4,
+      "type": "cleanse_protection"
+    },
+    "Brigitte": {
+      "score": 5,
+      "type": "ultimate_bodyguard"
+    },
+    "Moira": {
+      "score": 4,
+      "type": "brawl_healing_output"
+    },
+    "Mei": {
+      "score": 4,
+      "type": "brawl_coordination"
+    },
+    "Baptiste": {
+      "score": 3,
+      "type": "bunker_core"
+    },
+    "Symmetry": {
+      "score": 3,
+      "type": "tp_engage"
+    }
+  },
+  "sub_role": "Stalwart",
+  "health": 700
+},
+
+    "Mercy": {
+      "role": "Support",
+      "archetype": [
+        "Pocket",
+        "Evasive"
+      ],
+      "mobility": 5,
+      "survivability": 4,
+      "mechanical_difficulty": 2,
+      "team_dependency": 5,
+      "damage_profile": {
+        "shield_break": 0,
+        "tank_pressure": 0,
+        "squishy_pressure": 1,
+        "range": 2,
+        "burst": 0,
+        "sustain": 4,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 2,
+        "los_dependency": 5
+      },
+      "es": "El daño azul (boost) es más importante que curar a aliados llenos de vida.",
+	"en": "The damage boost (blue) is more important than healing full health allies.",
+      "counters": {
+        "Junkrat": {
+          "score": 2,
+          "type": "spam_avoidance"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "headshot_risk"
+        },
+        "Soldier: 76": {
+          "score": 3,
+          "type": "tracking_ult"
+        },
+        "D.Va": {
+          "score": 3,
+          "type": "chase_down"
+        }
+      },
+      "synergies": {
+        "Pharah": {
+          "score": 5,
+          "reason": "pharmercy"
+        },
+        "Echo": {
+          "score": 5,
+          "reason": "aerial_pocket"
+        },
+        "Ashe": {
+          "score": 5,
+          "reason": "dynamite_boost"
+        },
+        "Sojourn": {
+          "score": 4,
+          "reason": "railgun_charge"
+        }
+      },
+      "sub_role": "Medic",
+      "health": 200
+    },
+    "Torbjorn": {
+      "role": "Damage",
+      "archetype": [
+        "Anti-Dive",
+        "Builder",
+        "Spam"
+      ],
+      "mobility": 2,
+      "survivability": 3,
+      "mechanical_difficulty": 2,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 4,
+        "tank_pressure": 4,
+        "squishy_pressure": 3,
+        "range": 3,
+        "burst": 3,
+        "sustain": 3,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "es": "Coloca la torreta para cubrir líneas traseras (anti-flank) en lugar de en el frente principal.",
+      "en": "Your turret is at better use covering back line (anti-flank) rather than front line.",
+
+      "counters": {
+        "Tracer": {
+          "score": 5,
+          "type": "turret_zoning"
+        },
+        "Sombra": {
+          "score": 4,
+          "type": "turret_detect"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "cant_deflect_turret"
+        },
+        "Wrecking Ball": {
+          "score": 3,
+          "type": "body_block_and_burn"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 4,
+          "type": "out_of_turret_range"
+        },
+        "Junkrat": {
+          "score": 4,
+          "type": "indirect_fire"
+        },
+        "Hanzo": {
+          "score": 4,
+          "type": "peek_destruction"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "shield_block"
+        }
+      },
+      "synergies": {
+        "Sigma": {
+          "score": 3,
+          "reason": "shield_turret_prot"
+        },
+        "Illari": {
+          "score": 4,
+          "reason": "double_construct_def"
+        },
+        "Ana": {
+          "score": 3,
+          "reason": "nano_torb_hammer"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 225
+    },
+    "Hanzo": {
+      "role": "Damage",
+      "archetype": [
+        "Sniper",
+        "Spam",
+        "Pick"
+      ],
+      "mobility": 3,
+      "survivability": 2,
+      "mechanical_difficulty": 4,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 5,
+        "range": 4,
+        "burst": 5,
+        "sustain": 1,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+	"es": "Usa las flechas sónicas en esquinas clave para predecir movimientos enemigos.", "en": "Use sonic arrows on key corners for predicting enemy moves.",
+      "counters": {
+        "Bastion": {
+          "score": 4,
+          "type": "huge_hitbox"
+        },
+        "Torbjorn": {
+          "score": 4,
+          "type": "easy_turret_kill"
+        },
+        "Mei": {
+          "score": 3,
+          "type": "headshot_on_iceblock"
+        }
+      },
+      "countered_by": {
+        "Genji": {
+          "score": 4,
+          "type": "deflect_duel"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "bubble_dance"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "hard_to_hit_air"
+        },
+        "Pharah": {
+          "score": 3,
+          "type": "air_superiority"
+        }
+      },
+      "synergies": {
+        "Zarya": {
+          "score": 5,
+          "reason": "dragon_grav_combo"
+        },
+        "Widowmaker": {
+          "score": 3,
+          "reason": "sonic_wallhacks"
+        },
+        "Sigma": {
+          "score": 3,
+          "reason": "flux_arrows"
+        }
+      },
+      "sub_role": "Sharpshooter",
+      "health": 200
+    },
+    "Winston": {
+      "role": "Tank",
+      "archetype": [
+        "Dive",
+        "Disruptor"
+      ],
+      "mobility": 5,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 4,
+        "range": 1,
+        "burst": 2,
+        "sustain": 2,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 4,
+        "los_dependency": 3
+      },
+      "es":"Aísla a supports o snipers. Usa la burbuja al aterrizar para cortar la curación enemiga (bloquea la visión).", "en": "Isolate supports or snipers. Use bubble shield while landing to cut down enemy healing.",
+      "counters": {
+        "Genji": {
+          "score": 5,
+          "type": "beam_no_deflect"
+        },
+        "Widowmaker": {
+          "score": 5,
+          "type": "leap_engage"
+        },
+        "Hanzo": {
+          "score": 4,
+          "type": "bubble_isolation"
+        },
+        "Zenyatta": {
+          "score": 4,
+          "type": "easy_dive"
+        }
+      },
+      "countered_by": {
+        "Reaper": {
+          "score": 5,
+          "type": "shotgun_melt"
+        },
+        "Bastion": {
+          "score": 5,
+          "type": "turret_shred"
+        },
+        "Roadhog": {
+          "score": 4,
+          "type": "hook_punish"
+        },
+        "Mauga": {
+          "score": 5,
+          "type": "crit_farm"
+        }
+      },
+      "synergies": {
+        "Tracer": {
+          "score": 5,
+          "reason": "coordinated_dive"
+        },
+        "Ana": {
+          "score": 5,
+          "reason": "nano_monkey"
+        },
+        "Sombra": {
+          "score": 4,
+          "reason": "hacked_targets"
+        }
+      },
+      "sub_role": "Initiator",
+      "health": 700
+    },
+    "Zenyatta": {
+      "role": "Support",
+      "archetype": [
+        "Poke",
+        "Glass Cannon"
+      ],
+      "mobility": 1,
+      "survivability": 1,
+      "mechanical_difficulty": 4,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 4,
+        "tank_pressure": 5,
+        "squishy_pressure": 5,
+        "range": 5,
+        "burst": 4,
+        "sustain": 2,
+        "poke": 5
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 5,
+        "flank_vulnerability": 5,
+        "cc_susceptibility": 5,
+        "los_dependency": 5
+      },
+      "es": "Mantén el Orbe de Discordia en el tanque enemigo siempre que sea posible. Carga el disparo secundario en esquinas.", "en": "Keep your discord orb on enemy tank as much as possible. Load your secondary fire on corners.",
+      "counters": {
+        "Roadhog": {
+          "score": 5,
+          "type": "discord_melting"
+        },
+        "Orisa": {
+          "score": 4,
+          "type": "tank_pressure"
+        },
+        "Ramattra": {
+          "score": 4,
+          "type": "damage_amplification"
+        }
+      },
+      "countered_by": {
+        "Sombra": {
+          "score": 5,
+          "type": "emp_instakill"
+        },
+        "Tracer": {
+          "score": 5,
+          "type": "one_clip_kill"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "dive_assassin"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "easy_snipe"
+        }
+      },
+      "synergies": {
+        "Baptiste": {
+          "score": 4,
+          "reason": "poke_damage"
+        },
+        "Brigitte": {
+          "score": 5,
+          "reason": "bodyguard_peel"
+        },
+        "Tracer": {
+          "score": 4,
+          "reason": "harmony_flanker"
+        }
+      },
+      "sub_role": "Tactician",
+      "health": 200
+    },
+    "Bastion": {
+      "role": "Damage",
+      "archetype": [
+        "Anti-Tank",
+        "Poke"
+      ],
+      "mobility": 1,
+      "survivability": 2,
+      "mechanical_difficulty": 2,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 5,
+        "tank_pressure": 5,
+        "squishy_pressure": 3,
+        "range": 4,
+        "burst": 4,
+        "sustain": 5,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 5,
+        "flank_vulnerability": 4,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "es": "Usa la configuración de asalto para derretir escudos, pero nunca te transformes sin cobertura o un tanque delante.", "en": "Use assault mode to melt shields but get help from covers or an ally tank.",
+      "counters": {
+        "Reinhardt": {
+          "score": 5,
+          "type": "shield_shredder"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "bubble_breaker"
+        },
+        "Brigitte": {
+          "score": 3,
+          "type": "shield_pressure"
+        }
+      },
+      "countered_by": {
+        "Genji": {
+          "score": 4,
+          "type": "deflect_hazard"
+        },
+        "Tracer": {
+          "score": 4,
+          "type": "hitbox_farm"
+        },
+        "Ana": {
+          "score": 5,
+          "type": "sleep_dart_target"
+        },
+        "Hanzo": {
+          "score": 3,
+          "type": "corner_peek"
+        }
+      },
+      "synergies": {
+        "Sigma": {
+          "score": 5,
+          "reason": "shield_rotation"
+        },
+        "Baptiste": {
+          "score": 5,
+          "reason": "immortality_lamp"
+        },
+        "Mercy": {
+          "score": 4,
+          "reason": "damage_boost"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 300
+    },
+    "Symmetra": {
+      "role": "Damage",
+      "archetype": [
+        "Brawl",
+        "Builder",
+        "Anti-Shield"
+      ],
+      "mobility": 3,
+      "survivability": 2,
+      "mechanical_difficulty": 3,
+      "team_dependency": 5,
+      "damage_profile": {
+        "shield_break": 5,
+        "tank_pressure": 5,
+        "squishy_pressure": 3,
+        "range": 2,
+        "burst": 3,
+        "sustain": 2,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "es": "Carga tu rayo contra escudos enemigos (regeneras munición). Usa el TP para mover a tu equipo a high ground.", "en": "Blast your beam against enemy shields (regens ammo). Get your team to high ground with TP.",
+      "counters": {
+        "D.Va": {
+          "score": 5,
+          "type": "beam_ignores_matrix"
+        },
+        "Sigma": {
+          "score": 5,
+          "type": "shield_charge_battery"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "turret_slow_beam"
+        },
+        "Orisa": {
+          "score": 4,
+          "type": "spin_ignore"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 5,
+          "type": "range_splash"
+        },
+        "Winston": {
+          "score": 5,
+          "type": "turret_clear"
+        },
+        "Junkrat": {
+          "score": 4,
+          "type": "trap_turret"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "snipe_static"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 5,
+          "reason": "tp_brawl"
+        },
+        "Ramattra": {
+          "score": 4,
+          "reason": "rush_tp"
+        },
+        "Baptiste": {
+          "score": 4,
+          "reason": "lamp_teleport"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 225
+    },
+    "Zarya": {
+      "role": "Tank",
+      "archetype": [
+        "Brawl",
+        "Enabler"
+      ],
+      "mobility": 1,
+      "survivability": 3,
+      "mechanical_difficulty": 4,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 5,
+        "squishy_pressure": 5,
+        "range": 2,
+        "burst": 3,
+        "sustain": 3,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 1,
+        "los_dependency": 4
+      },
+      "es": "Alterna burbujas. Usa una para ganar carga y guarda la otra para salvar a un aliado (Support/DPS).", "en": "Alternate bubbles. Use one for getting charge and the other for saving an ally (support/dps).",
+      "counters": {
+        "D.Va": {
+          "score": 5,
+          "type": "beam_no_matrix"
+        },
+        "Orisa": {
+          "score": 4,
+          "type": "beam_no_spin"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "beam_no_deflect"
+        },
+        "Junkrat": {
+          "score": 3,
+          "type": "charge_feeder"
+        }
+      },
+      "countered_by": {
+        "Reinhardt": {
+          "score": 4,
+          "type": "shield_block_beam"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "bubble_isolation"
+        },
+        "Bastion": {
+          "score": 5,
+          "type": "bubble_pop_melt"
+        },
+        "Widowmaker": {
+          "score": 3,
+          "type": "range_safety"
+        }
+      },
+      "synergies": {
+        "Reaper": {
+          "score": 5,
+          "reason": "bubble_engage"
+        },
+        "Genji": {
+          "score": 5,
+          "reason": "bubble_blade"
+        },
+        "Hanzo": {
+          "score": 5,
+          "reason": "grav_dragon"
+        }
+      },
+      "sub_role": "Bruiser",
+      "health": 475
+    },
+    "Cassidy": {
+      "role": "Damage",
+      "archetype": [
+        "Anti-Flank",
+        "Brawl",
+        "Hitscan"
+      ],
+      "mobility": 1,
+      "survivability": 2,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 5,
+        "range": 3,
+        "burst": 4,
+        "sustain": 1,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "es": "Guarda la flashbang para detener a héroes con mucha movilidad (Genji, Tracer, Lucio).", "en": "Save your flashbang for speedy targets (Genji, Tracer, Lucio).",
+      "counters": {
+        "Tracer": {
+          "score": 5,
+          "type": "hindered_stop"
+        },
+        "Pharah": {
+          "score": 4,
+          "type": "hitscan_check"
+        },
+        "Lucio": {
+          "score": 4,
+          "type": "movement_lock"
+        },
+        "Doomfist": {
+          "score": 3,
+          "type": "interrupt_block"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 5,
+          "type": "range_outclass"
+        },
+        "Ashe": {
+          "score": 4,
+          "type": "range_outclass"
+        },
+        "D.Va": {
+          "score": 4,
+          "type": "matrix_ult_eat"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "shield_rock_combo"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 4,
+          "reason": "shield_safety"
+        },
+        "Baptiste": {
+          "score": 3,
+          "reason": "immortality_ult"
+        },
+        "Brigitte": {
+          "score": 3,
+          "reason": "anti_dive_duo"
+        }
+      },
+      "sub_role": "Sharpshooter",
+      "health": 225
+    },
+    "Soldier: 76": {
+      "role": "Damage",
+      "archetype": [
+        "Tracking",
+        "Hitscan",
+        "Self-Sustain"
+      ],
+      "mobility": 4,
+      "survivability": 3,
+      "mechanical_difficulty": 2,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 3,
+        "sustain": 5,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 2,
+        "los_dependency": 4
+      },
+      "es": "Controla las ráfagas a larga distancia. Usa el campo biótico para sostener a tu equipo en puntos de choque.", "en": "Manage your shots at long range. Use biotic field for you and your team on choke points.",
+      "counters": {
+        "Pharah": {
+          "score": 5,
+          "type": "hitscan_pressure"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "aerial_tracking"
+        },
+        "Mercy": {
+          "score": 3,
+          "type": "steady_damage"
+        }
+      },
+      "countered_by": {
+        "D.Va": {
+          "score": 4,
+          "type": "matrix_shutdown"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "range_superiority"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "deflect_prediction"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "barrier_dancing"
+        }
+      },
+      "synergies": {
+        "Baptiste": {
+          "score": 4,
+          "reason": "double_hitscan"
+        },
+        "Mercy": {
+          "score": 5,
+          "reason": "pocket_visor"
+        },
+        "Ana": {
+          "score": 4,
+          "reason": "nano_visor"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 200
+    },
+    "Lucio": {
+      "role": "Support",
+      "archetype": [
+        "Brawl",
+        "Utility",
+        "Peel"
+      ],
+      "mobility": 5,
+      "survivability": 4,
+      "mechanical_difficulty": 4,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 1,
+        "squishy_pressure": 2,
+        "range": 1,
+        "burst": 1,
+        "sustain": 3,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "es": "El Speed Boost es tu habilidad más fuerte. Úsalo para iniciar peleas o salvar aliados, no solo para volver del spawn.", "en": "Your Speed Boost is the stronger skill. Use it for initiate fights or save allies, not only for getting from spawn.",
+      "counters": {
+        "Reaper": {
+          "score": 4,
+          "type": "boop_disengage"
+        },
+        "Mei": {
+          "score": 3,
+          "type": "speed_escape"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "close_range_annoyance"
+        }
+      },
+      "countered_by": {
+        "Moira": {
+          "score": 4,
+          "type": "auto_aim_tracking"
+        },
+        "Cassidy": {
+          "score": 4,
+          "type": "grenade_stop"
+        },
+        "Pharah": {
+          "score": 3,
+          "type": "ground_splash"
+        },
+        "Sombra": {
+          "score": 5,
+          "type": "emp_beat_cancel"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 5,
+          "reason": "speed_brawl"
+        },
+        "Ramattra": {
+          "score": 5,
+          "reason": "nemesis_chase"
+        },
+        "Junker Queen": {
+          "score": 5,
+          "reason": "rush_comp"
+        }
+      },
+      "sub_role": "Unknown",
+      "health": 200
+    },
+    "Roadhog": {
+      "role": "Tank",
+      "archetype": [
+        "Brawl",
+        "Pick",
+        "Punisher"
+      ],
+      "mobility": 1,
+      "survivability": 5,
+      "mechanical_difficulty": 3,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 4,
+        "tank_pressure": 4,
+        "squishy_pressure": 5,
+        "range": 2,
+        "burst": 5,
+        "sustain": 5,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 5,
+        "los_dependency": 2
+      },
+      "es": "Eres una batería de ultimates para el enemigo si te curas a la vista. Juega cerca de esquinas para enganchar.", "en": "You are an easy target for ults if healing on enemy LoS. Engage close to corners.",
+      "counters": {
+        "Winston": {
+          "score": 5,
+          "type": "damage_sponge"
+        },
+        "Doomfist": {
+          "score": 4,
+          "type": "hook_cancel"
+        },
+        "Wrecking Ball": {
+          "score": 5,
+          "type": "hook_momentum_stop"
+        }
+      },
+      "countered_by": {
+        "Ana": {
+          "score": 5,
+          "type": "anti_nade_shutdown"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "type": "discord_melt"
+        },
+        "Mauga": {
+          "score": 5,
+          "type": "crit_farm"
+        },
+        "Reaper": {
+          "score": 4,
+          "type": "hitbox_farm"
+        }
+      },
+      "synergies": {
+        "Kiriko": {
+          "score": 5,
+          "reason": "cleanse_nade"
+        },
+        "Lifeweaver": {
+          "score": 4,
+          "reason": "grip_rescue"
+        },
+        "Junkrat": {
+          "score": 3,
+          "reason": "trap_hook_combo"
+        }
+      },
+      "sub_role": "Bruiser",
+      "health": 750
+    },
+    "Junkrat": {
+      "role": "Damage",
+      "archetype": [
+        "Spam",
+        "Area Denial",
+        "Brawl"
+      ],
+      "mobility": 4,
+      "survivability": 2,
+      "mechanical_difficulty": 3,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 5,
+        "tank_pressure": 5,
+        "squishy_pressure": 5,
+        "range": 3,
+        "burst": 5,
+        "sustain": 1,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 2,
+        "los_dependency": 2
+      },
+      "es": "Dispara rebotando en paredes para atacar sin exponerte. Usa las minas para movilidad, no solo daño.", "en": "Shoot on walls for damaging without leaving cover. Use your mines for movility, not only damage.",
+      "counters": {
+        "Reinhardt": {
+          "score": 5,
+          "type": "shield_buster"
+        },
+        "Sigma": {
+          "score": 4,
+          "type": "shield_pressure"
+        },
+        "Brigitte": {
+          "score": 4,
+          "type": "splash_around_shield"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 5,
+          "type": "ground_target"
+        },
+        "Echo": {
+          "score": 5,
+          "type": "aerial_dominance"
+        },
+        "Zarya": {
+          "score": 4,
+          "type": "charge_feeder"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "open_sightlines"
+        }
+      },
+      "synergies": {
+        "Roadhog": {
+          "score": 3,
+          "reason": "hook_trap"
+        },
+        "Sigma": {
+          "score": 3,
+          "reason": "choke_spam"
+        },
+        "Mercy": {
+          "score": 3,
+          "reason": "damage_boost_spam"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 200
+    },
+    "D.Va": {
+      "role": "Tank",
+      "archetype": [
+        "Dive",
+        "Peel",
+        "Brawl"
+      ],
+      "mobility": 5,
+      "survivability": 4,
+      "mechanical_difficulty": 3,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 1,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 3,
+        "los_dependency": 2
+      },
+      "es": "Usa la Matriz de Defensa para comer orbes de Moira, fuego de Pharah y ultimates. No la gastes en daño basura.", "en": "Use defense matrix for Moira orbs, Pharah rockets and ults. Dont waste on minor damage sources.",
+      "counters": {
+        "Pharah": {
+          "score": 5,
+          "type": "matrix_fly"
+        },
+        "Widowmaker": {
+          "score": 5,
+          "type": "dive_harass"
+        },
+        "Moira": {
+          "score": 4,
+          "type": "eat_orbs"
+        },
+        "Cassidy": {
+          "score": 4,
+          "type": "eat_high_noon"
+        }
+      },
+      "countered_by": {
+        "Zarya": {
+          "score": 5,
+          "type": "beam_penetration"
+        },
+        "Symmetra": {
+          "score": 5,
+          "type": "beam_charge"
+        },
+        "Mei": {
+          "score": 4,
+          "type": "freeze_slow"
+        },
+        "Brigitte": {
+          "score": 3,
+          "type": "shield_bash_whip"
+        }
+      },
+      "synergies": {
+        "Winston": {
+          "score": 5,
+          "reason": "full_dive"
+        },
+        "Tracer": {
+          "score": 4,
+          "reason": "target_chase"
+        },
+        "Mercy": {
+          "score": 3,
+          "reason": "pocket_bomb"
+        }
+      },
+      "sub_role": "Initiator",
+      "health": 700
+    },
+    "Mei": {
+      "role": "Damage",
+      "archetype": [
+        "Brawl",
+        "Utility",
+        "Anti-Tank"
+      ],
+      "mobility": 1,
+      "survivability": 5,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 3,
+        "squishy_pressure": 3,
+        "range": 2,
+        "burst": 2,
+        "sustain": 4,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 2,
+        "los_dependency": 3
+      },
+      "es": "Usa el muro para aislar al tanque enemigo del resto de su equipo (cierra la puerta).", "en": "Use your wall for isolating enemy tank from the team (close doorways).",
+      "counters": {
+        "D.Va": {
+          "score": 5,
+          "type": "beam_ignores_matrix"
+        },
+        "Genji": {
+          "score": 5,
+          "type": "slow_cant_deflect"
+        },
+        "Wrecking Ball": {
+          "score": 5,
+          "type": "momentum_stop"
+        },
+        "Reinhardt": {
+          "score": 4,
+          "type": "wall_isolation"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 5,
+          "type": "floor_is_lava"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "aerial_advantage"
+        },
+        "Junkrat": {
+          "score": 3,
+          "type": "trap_iceblock"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "range_headshot"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 5,
+          "reason": "brawl_wall"
+        },
+        "Ramattra": {
+          "score": 4,
+          "reason": "slow_field_combo"
+        },
+        "Cassidy": {
+          "score": 3,
+          "reason": "stun_headshot"
+        }
+      },
+      "sub_role": "Specialist",
+      "health": 250
+    },
+    "Genji": {
+      "role": "Damage",
+      "archetype": [
+        "Dive",
+        "Flanker"
+      ],
+      "mobility": 5,
+      "survivability": 3,
+      "mechanical_difficulty": 5,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 5,
+        "range": 2,
+        "burst": 5,
+        "sustain": 1,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 4,
+        "los_dependency": 2
+      },
+      "es": "Busca resetear el Dash eliminando objetivos con poca vida. No uses el Deflect si el enemigo usa armas de rayo (Zarya, Sym, Moira).", "en": "Commit to resetting your Dash via killing low health targets. Don't use Deflect on beam damage (Zarya, Sym, Moira).",
+      "counters": {
+        "Bastion": {
+          "score": 4,
+          "type": "deflect_kill"
+        },
+        "Widowmaker": {
+          "score": 5,
+          "type": "dive_access"
+        },
+        "Ana": {
+          "score": 3,
+          "type": "hard_to_hit"
+        }
+      },
+      "countered_by": {
+        "Zarya": {
+          "score": 4,
+          "type": "beam_damage"
+        },
+        "Winston": {
+          "score": 5,
+          "type": "beam_chase"
+        },
+        "Moira": {
+          "score": 4,
+          "type": "auto_aim"
+        },
+        "Symmetra": {
+          "score": 5,
+          "type": "turret_slow"
+        }
+      },
+      "synergies": {
+        "Ana": {
+          "score": 5,
+          "reason": "nano_blade_combo"
+        },
+        "Winston": {
+          "score": 4,
+          "reason": "dive_coordination"
+        },
+        "Zenyatta": {
+          "score": 4,
+          "reason": "harmony_orb"
+        }
+      },
+      "sub_role": "Flanker",
+      "health": 200
+    },
+    "Ana": {
+      "role": "Support",
+      "archetype": [
+        "Sniper",
+        "Utility",
+        "Main Healer"
+      ],
+      "mobility": 1,
+      "survivability": 2,
+      "mechanical_difficulty": 5,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 0,
+        "tank_pressure": 3,
+        "squishy_pressure": 3,
+        "range": 5,
+        "burst": 2,
+        "sustain": 4,
+        "poke": 5
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 5,
+        "flank_vulnerability": 5,
+        "cc_susceptibility": 4,
+        "los_dependency": 5
+      },
+      "es": "La granada biótica ofensiva (morada) gana peleas. Úsala cuando el enemigo no tenga escudos o cleanses.", "en": "Biotic grenade (purple) wins fights. Use it when enemies lack shield or cleanses",
+      "counters": {
+        "Roadhog": {
+          "score": 5,
+          "type": "anti_healing"
+        },
+        "Mauga": {
+          "score": 5,
+          "type": "huge_sleep_target"
+        },
+        "Pharah": {
+          "score": 3,
+          "type": "sniper_support"
+        },
+        "Moira": {
+          "score": 3,
+          "type": "anti_coal"
+        }
+      },
+      "countered_by": {
+        "Kiriko": {
+          "score": 5,
+          "type": "suzu_cleanse"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "bubble_los"
+        },
+        "D.Va": {
+          "score": 4,
+          "type": "matrix_eat"
+        },
+        "Tracer": {
+          "score": 5,
+          "type": "backline_harass"
+        }
+      },
+      "synergies": {
+        "Genji": {
+          "score": 5,
+          "reason": "nanoblade"
+        },
+        "Reinhardt": {
+          "score": 5,
+          "reason": "nano_tank"
+        },
+        "Winston": {
+          "score": 4,
+          "reason": "long_range_heal"
+        }
+      },
+      "sub_role": "Tactician",
+      "health": 200
+    },
+    "Sombra": {
+      "role": "Damage",
+      "archetype": [
+        "Flanker",
+        "Disruptor",
+        "Assassin"
+      ],
+      "mobility": 5,
+      "survivability": 4,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 5,
+        "range": 2,
+        "burst": 4,
+        "sustain": 2,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 5,
+        "los_dependency": 2
+      },
+      "es": "No hackees todo lo que veas; prioriza habilidades que corten canalizaciones (como el Res de Mercy).",
+"en": "Do not hack everything on sight; target channelings skills like Mercy's Res.",
+      "counters": {
+        "Widowmaker": {
+          "score": 5,
+          "type": "stealth_ambush"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "type": "easy_target_emp"
+        },
+        "Doomfist": {
+          "score": 4,
+          "type": "hack_cooldown_reset"
+        },
+        "Ball": {
+          "score": 5,
+          "type": "momentum_shutdown"
+        }
+      },
+      "countered_by": {
+        "Winston": {
+          "score": 4,
+          "type": "spy_check_tesla"
+        },
+        "Brigitte": {
+          "score": 4,
+          "type": "anti_flank_peel"
+        },
+        "Kiriko": {
+          "score": 3,
+          "type": "suzu_virus_cleanse"
+        },
+        "Torbjorn": {
+          "score": 3,
+          "type": "turret_detect"
+        }
+      },
+      "synergies": {
+        "Winston": {
+          "score": 5,
+          "reason": "dive_followup"
+        },
+        "Tracer": {
+          "score": 4,
+          "reason": "coordinated_flank"
+        },
+        "D.Va": {
+          "score": 4,
+          "reason": "hack_bomb_combo"
+        }
+      },
+      "sub_role": "Recon",
+      "health": 200
+    },
+    "Orisa": {
+      "role": "Tank",
+      "archetype": [
+        "Brawl",
+        "Anti-Tank",
+        "Anchor"
+      ],
+      "mobility": 2,
+      "survivability": 5,
+      "mechanical_difficulty": 2,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 5,
+        "squishy_pressure": 3,
+        "range": 3,
+        "burst": 3,
+        "sustain": 4,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 1,
+        "los_dependency": 4
+      },
+      "es": "Rota tus habilidades (Fortify -> Spin -> Javelin) para nunca quedarte sin recursos de mitigación.",
+"en": "Do use all your skills on rotation (Fortify -> Spin -> Javelin) to never run out of mitigation resources.",
+      "counters": {
+        "Reinhardt": {
+          "score": 5,
+          "type": "javelin_cancel_charge"
+        },
+        "Doomfist": {
+          "score": 4,
+          "type": "cc_resistance"
+        },
+        "Roadhog": {
+          "score": 4,
+          "type": "anti_hook_fortify"
+        },
+        "Mauga": {
+          "score": 3,
+          "type": "javelin_stun"
+        }
+      },
+      "countered_by": {
+        "Zarya": {
+          "score": 5,
+          "type": "beam_bypass_spin"
+        },
+        "Symmetra": {
+          "score": 4,
+          "type": "beam_bypass_spin"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "type": "discord_shred"
+        },
+        "Ana": {
+          "score": 4,
+          "type": "anti_nade_vulnerability"
+        }
+      },
+      "synergies": {
+        "Baptiste": {
+          "score": 4,
+          "reason": "sustain_line"
+        },
+        "Sojourn": {
+          "score": 3,
+          "reason": "javelin_setup"
+        },
+        "Bastion": {
+          "score": 4,
+          "reason": "double_frontline_pressure"
+        }
+      },
+      "sub_role": "Bruiser",
+      "health": 550
+    },
+    "Doomfist": {
+      "role": "Tank",
+      "archetype": [
+        "Dive",
+        "Disruptor"
+      ],
+      "mobility": 5,
+      "survivability": 3,
+      "mechanical_difficulty": 5,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 4,
+        "range": 1,
+        "burst": 4,
+        "sustain": 1,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 5,
+        "los_dependency": 2
+      },
+      "es": "Carga tu Power Block contra daño predecible para potenciar tu Rocket Punch; es tu mayor fuente de daño.",
+"en": "Charge your Power Block against predictable damage sources for boosting your Rocket Punch; it is your main damage source.",
+      "counters": {
+        "Zenyatta": {
+          "score": 4,
+          "type": "easy_dive_target"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "high_mobility_threat"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "cc_bypass_deflect"
+        }
+      },
+      "countered_by": {
+        "Sombra": {
+          "score": 5,
+          "type": "hack_disruption"
+        },
+        "Orisa": {
+          "score": 5,
+          "type": "fortify_stun_resistance"
+        },
+        "Ana": {
+          "score": 5,
+          "type": "sleep_target_lock"
+        },
+        "Roadhog": {
+          "score": 4,
+          "type": "hook_cancel_block"
+        }
+      },
+      "synergies": {
+        "Sombra": {
+          "score": 5,
+          "reason": "dive_hack_focus"
+        },
+        "Kiriko": {
+          "score": 4,
+          "reason": "suzu_dive_save"
+        },
+        "Ana": {
+          "score": 4,
+          "reason": "nano_doom_carry"
+        }
+      },
+      "sub_role": "Initiator",
+      "health": 550
+    },
+    "Moira": {
+      "role": "Support",
+      "archetype": [
+        "Main Healer",
+        "Evasive",
+        "Brawl"
+      ],
+      "mobility": 4,
+      "survivability": 5,
+      "mechanical_difficulty": 1,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 1,
+        "squishy_pressure": 3,
+        "range": 3,
+        "burst": 1,
+        "sustain": 5,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 2,
+        "los_dependency": 3
+      },
+      "es": "Usa el Fade solo para escapar o reposicionarte ante una muerte segura, nunca para entrar en combate.", "en": "Use Fade only for escaping or reposition to avoid a certain death, but never for engaging.", 
+      "counters": {
+        "Genji": {
+          "score": 5,
+          "type": "auto_aim_no_deflect"
+        },
+        "Lucio": {
+          "score": 3,
+          "type": "consistent_tick_damage"
+        },
+        "Hanzo": {
+          "score": 2,
+          "type": "evasion_mobility"
+        }
+      },
+      "countered_by": {
+        "D.Va": {
+          "score": 5,
+          "type": "orb_matrix_eat"
+        },
+        "Ana": {
+          "score": 4,
+          "type": "anti_nade_coalescence"
+        },
+        "Roadhog": {
+          "score": 3,
+          "type": "hook_fade_predict"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "out_range_snipe"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 5,
+          "reason": "brawl_healing_output"
+        },
+        "Lucio": {
+          "score": 4,
+          "reason": "rush_comp_heals"
+        },
+        "Zarya": {
+          "score": 3,
+          "reason": "sustain_support"
+        }
+      },
+      "sub_role": "Medic",
+      "health": 200
+    },
+    "Brigitte": {
+      "role": "Support",
+      "archetype": [
+        "Anti-Dive",
+        "Bodyguard",
+        "Brawl"
+      ],
+      "mobility": 2,
+      "survivability": 4,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 3,
+        "range": 1,
+        "burst": 3,
+        "sustain": 3,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 3,
+        "los_dependency": 5
+      },
+      "es": "Tu trabajo principal es proteger a tu otro Support. Mantén el Inspire activo golpeando con el látigo (Whip Shot).",
+	"en": "Keeping your other support alive must be a priority. Keep inspire active via constantly fighting enemies.",
+      "counters": {
+        "Tracer": {
+          "score": 5,
+          "type": "shield_bash_deterrent"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "melee_deflect_ignore"
+        },
+        "Sombra": {
+          "score": 3,
+          "type": "peel_capability"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "whip_shot_disengage"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 5,
+          "type": "verticality_outclass"
+        },
+        "Junkrat": {
+          "score": 5,
+          "type": "shield_burst_spam"
+        },
+        "Ramattra": {
+          "score": 5,
+          "type": "punch_through_shield"
+        },
+        "Bastion": {
+          "score": 4,
+          "type": "shield_melt"
+        }
+      },
+      "synergies": {
+        "Ana": {
+          "score": 5,
+          "reason": "ultimate_bodyguard"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "reason": "zen_protection"
+        },
+        "Junker Queen": {
+          "score": 4,
+          "reason": "brawl_sustain"
+        }
+      },
+      "sub_role": "Survivor",
+      "health": 250
+    },
+    "Wrecking Ball": {
+      "role": "Tank",
+      "archetype": [
+        "Dive",
+        "Disruptor"
+      ],
+      "mobility": 5,
+      "survivability": 5,
+      "mechanical_difficulty": 5,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 3,
+        "range": 2,
+        "burst": 3,
+        "sustain": 2,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 5,
+        "los_dependency": 2
+      },
+      "es": "No necesitas curación constante. Aprende la ubicación de los Mega-packs de salud para mantener el ritmo de ataque.",
+	"en": "Don't rely on constant heals. Instead, learn the position of health Mega-packs and keep dealing constant damage.",
+      "counters": {
+        "Widowmaker": {
+          "score": 5,
+          "type": "piledriver_pressure"
+        },
+        "Zenyatta": {
+          "score": 4,
+          "type": "easy_dive_pick"
+        },
+        "Ashe": {
+          "score": 3,
+          "type": "disruption_chaos"
+        }
+      },
+      "countered_by": {
+        "Sombra": {
+          "score": 5,
+          "type": "hack_ball_form"
+        },
+        "Mei": {
+          "score": 5,
+          "type": "slow_stop_momentum"
+        },
+        "Brigitte": {
+          "score": 4,
+          "type": "bash_whip_stop"
+        },
+        "Roadhog": {
+          "score": 4,
+          "type": "hook_interruption"
+        }
+      },
+      "synergies": {
+        "Tracer": {
+          "score": 5,
+          "reason": "dive_cleanup"
+        },
+        "Genji": {
+          "score": 4,
+          "reason": "vertical_dive"
+        },
+        "Sombra": {
+          "score": 4,
+          "reason": "hack_slam_combo"
+        }
+      },
+      "sub_role": "Initiator",
+      "health": 750
+    },
+    "Ashe": {
+      "role": "Damage",
+      "archetype": [
+        "Sniper",
+        "Hitscan",
+        "Poke"
+      ],
+      "mobility": 3,
+      "survivability": 2,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 5,
+        "range": 4,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 2,
+        "los_dependency": 5
+      },
+      "es": "Usa la Dinamita por encima de los escudos para quemar a los Supports enemigos. No olvides que Bob captura objetivos.",
+      "en": "Use dynamite over shields for burning enemy supports. Don't forget Bob can also contest objectives like another player.",
+      "counters": {
+        "Pharah": {
+          "score": 5,
+          "type": "hitscan_air_control"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "hitscan_air_control"
+        },
+        "Mercy": {
+          "score": 3,
+          "type": "constant_pressure"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 5,
+          "type": "range_superiority"
+        },
+        "D.Va": {
+          "score": 5,
+          "type": "matrix_dynamite_eat"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "dive_shield_dance"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "deflect_dynamite"
+        }
+      },
+      "synergies": {
+        "Mercy": {
+          "score": 5,
+          "reason": "damage_boost_oneshot"
+        },
+        "Sigma": {
+          "score": 3,
+          "reason": "poke_pressure"
+        },
+        "Ana": {
+          "score": 3,
+          "reason": "nano_bob"
+        }
+      },
+      "sub_role": "Sharpshooter",
+      "health": 200
+    },
+    "Baptiste": {
+      "role": "Support",
+      "archetype": [
+        "Main Healer",
+        "Hitscan",
+        "Bunker"
+      ],
+      "mobility": 3,
+      "survivability": 4,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 2,
+        "los_dependency": 4
+      },
+      "es": "Aprende el ritmo: Disparo-Disparo-Granada para maximizar tu valor sin dejar de curar a tu equipo.",
+	"en": "Learn the pattern: Shoot-Shoot-Grenade for maxing your value while healing your team.",
+      "counters": {
+        "Pharah": {
+          "score": 4,
+          "type": "hitscan_support"
+        },
+        "Mercy": {
+          "score": 3,
+          "type": "air_tracking"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "hitscan_check"
+        }
+      },
+      "countered_by": {
+        "D.Va": {
+          "score": 4,
+          "type": "matrix_lamp_eat"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "blade_through_lamp"
+        },
+        "Roadhog": {
+          "score": 3,
+          "type": "hook_out_of_lamp"
+        },
+        "Sombra": {
+          "score": 4,
+          "type": "hack_emp_lamp"
+        }
+      },
+      "synergies": {
+        "Sigma": {
+          "score": 5,
+          "reason": "bunker_core"
+        },
+        "Orisa": {
+          "score": 5,
+          "reason": "immortality_frontline"
+        },
+        "Soldier: 76": {
+          "score": 4,
+          "reason": "window_visor_combo"
+        }
+      },
+      "sub_role": "Tactician",
+      "health": 200
+    },
+    "Sigma": {
+      "role": "Tank",
+      "archetype": [
+        "Poke",
+        "Anchor"
+      ],
+      "mobility": 1,
+      "survivability": 4,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 4,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 4,
+        "cc_susceptibility": 3,
+        "los_dependency": 5
+      },
+      "es": "No dejes el escudo estático; proyéctalo y retíralo constantemente para reposicionarlo y que regenere salud.",
+	"en": "Don't leave the shield unattended; project and return it constantly to regen it.",
+      "counters": {
+        "Bastion": {
+          "score": 4,
+          "type": "kinetic_grasp_absorb"
+        },
+        "Widowmaker": {
+          "score": 5,
+          "type": "barrier_denial"
+        },
+        "Ashe": {
+          "score": 4,
+          "type": "shield_poke_block"
+        },
+        "Soldier: 76": {
+          "score": 3,
+          "type": "off_angle_control"
+        }
+      },
+      "countered_by": {
+        "Symmetra": {
+          "score": 5,
+          "type": "beam_charge_shield"
+        },
+        "Zarya": {
+          "score": 5,
+          "type": "beam_ignores_grasp"
+        },
+        "Mei": {
+          "score": 4,
+          "type": "beam_and_wall"
+        },
+        "Reinhardt": {
+          "score": 4,
+          "type": "close_range_hammer"
+        }
+      },
+      "synergies": {
+        "Baptiste": {
+          "score": 5,
+          "reason": "poke_comp_sustain"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "reason": "glass_cannon_protection"
+        },
+        "Ashe": {
+          "score": 4,
+          "reason": "off_angle_safety"
+        }
+      },
+      "sub_role": "Stalwart",
+      "health": 650
+    },
+    "Echo": {
+      "role": "Damage",
+      "archetype": [
+        "Assassin",
+        "Air",
+        "Projectile"
+      ],
+      "mobility": 5,
+      "survivability": 2,
+      "mechanical_difficulty": 5,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 5,
+        "squishy_pressure": 5,
+        "range": 3,
+        "burst": 5,
+        "sustain": 2,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "es": "Reserva el Focusing Beam para objetivos con menos del 50% de salud; el daño se cuadruplica y funde tanques.",
+	"en": "Save your Focusing Beam for targets with less than 50% health; it gets x4 damage and melts tanks.",
+      "counters": {
+        "Reaper": {
+          "score": 5,
+          "type": "vertical_outrange"
+        },
+        "Junkrat": {
+          "score": 5,
+          "type": "vertical_outrange"
+        },
+        "Bastion": {
+          "score": 4,
+          "type": "beam_melting_turret"
+        },
+        "Doomfist": {
+          "score": 3,
+          "type": "aerial_evasion"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 5,
+          "type": "hitscan_one_shot"
+        },
+        "Cassidy": {
+          "score": 5,
+          "type": "hitscan_grenade"
+        },
+        "Soldier: 76": {
+          "score": 4,
+          "type": "tracking_pressure"
+        },
+        "Ashe": {
+          "score": 4,
+          "type": "hitscan_pressure"
+        }
+      },
+      "synergies": {
+        "Mercy": {
+          "score": 5,
+          "reason": "aerial_pocket"
+        },
+        "Ana": {
+          "score": 4,
+          "reason": "nano_duplicate"
+        },
+        "Winston": {
+          "score": 4,
+          "reason": "dive_beam_cleanup"
+        }
+      },
+      "sub_role": "Recon",
+      "health": 200
+    },
+    "Sojourn": {
+      "role": "Damage",
+      "archetype": [
+        "Hitscan",
+        "Mobility",
+        "Pick"
+      ],
+      "mobility": 4,
+      "survivability": 3,
+      "mechanical_difficulty": 5,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 4,
+        "squishy_pressure": 5,
+        "range": 4,
+        "burst": 5,
+        "sustain": 4,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 3,
+        "los_dependency": 5
+      },
+      "es": "Carga tu disparo secundario disparando al tanque enemigo, pero úsalo para eliminar a los Supports de un disparo a la cabeza.",
+	"en": "Load your secondary fire via shooting enemy tank, but use it for killing Supports via headshot.",
+      "counters": {
+        "Pharah": {
+          "score": 4,
+          "type": "hitscan_railgun"
+        },
+        "Mercy": {
+          "score": 4,
+          "type": "headshot_pick"
+        },
+        "Lucio": {
+          "score": 3,
+          "type": "aoe_slow_snare"
+        }
+      },
+      "countered_by": {
+        "D.Va": {
+          "score": 5,
+          "type": "matrix_railgun_eat"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "range_outclass"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "deflect_railgun_risk"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "shield_grasp_dance"
+        }
+      },
+      "synergies": {
+        "Mercy": {
+          "score": 5,
+          "reason": "blue_beam_railgun"
+        },
+        "Sigma": {
+          "score": 4,
+          "reason": "frontline_poke"
+        },
+        "Junker Queen": {
+          "score": 3,
+          "reason": "shout_slide_engage"
+        }
+      },
+      "sub_role": "Sharpshooter",
+      "health": 200
+    },
+    "Junker Queen": {
+      "role": "Tank",
+      "archetype": [
+        "Brawl",
+        "Rush"
+      ],
+      "mobility": 3,
+      "survivability": 3,
+      "mechanical_difficulty": 4,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 4,
+        "squishy_pressure": 4,
+        "range": 2,
+        "burst": 4,
+        "sustain": 4,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 4,
+        "los_dependency": 3
+      },
+      "es": "Aplica heridas con el cuchillo, el hacha o el cuerpo a cuerpo para activar tu curación pasiva. El Shout es para entrar o salvar.",
+	"en": "Induce bleeding with the knife, axe or quick melee to trigger your passive health regen. Use Shout for engage-disengage.",
+      "counters": {
+        "Roadhog": {
+          "score": 4,
+          "type": "anti_heal_ult"
+        },
+        "Winston": {
+          "score": 4,
+          "type": "brawl_dominance"
+        },
+        "Doomfist": {
+          "score": 3,
+          "type": "knife_pull_interrupt"
+        }
+      },
+      "countered_by": {
+        "Kiriko": {
+          "score": 5,
+          "type": "suzu_cleanses_everything"
+        },
+        "Ana": {
+          "score": 5,
+          "type": "anti_nade_shutdown"
+        },
+        "Zenyatta": {
+          "score": 4,
+          "type": "discord_melting"
+        },
+        "Bastion": {
+          "score": 4,
+          "type": "out_damage_tank"
+        }
+      },
+      "synergies": {
+        "Lucio": {
+          "score": 5,
+          "reason": "speed_rush_meta"
+        },
+        "Brigitte": {
+          "score": 4,
+          "reason": "brawl_sustain"
+        },
+        "Kiriko": {
+          "score": 4,
+          "reason": "cleanse_protection"
+        }
+      },
+      "sub_role": "Stalwart",
+      "health": 550
+    },
+    "Kiriko": {
+      "role": "Support",
+      "archetype": [
+        "Dive",
+        "Evasive",
+        "Utility"
+      ],
+      "mobility": 5,
+      "survivability": 5,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 5,
+        "range": 4,
+        "burst": 4,
+        "sustain": 2,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 2,
+        "los_dependency": 4
+      },
+      "es": "No gastes el Suzu solo para curar; guárdalo para limpiar efectos negativos como la granada de Ana o la ulti de Junker Queen.",
+	"en": "Don't waste Suzu on healings only; save it for negative effects (Anas grenade, Junker Queen's ult)",
+      "counters": {
+        "Ana": {
+          "score": 5,
+          "type": "suzu_cleanse_nade"
+        },
+        "Junker Queen": {
+          "score": 5,
+          "type": "suzu_cleanse_ult"
+        },
+        "Ashe": {
+          "score": 4,
+          "type": "suzu_cleanse_burn"
+        },
+        "Tracer": {
+          "score": 4,
+          "type": "two_tap_headshot"
+        }
+      },
+      "countered_by": {
+        "Winston": {
+          "score": 4,
+          "type": "shield_blocks_tp"
+        },
+        "Moira": {
+          "score": 3,
+          "type": "consistent_orb_damage"
+        },
+        "Zarya": {
+          "score": 3,
+          "type": "beam_tracking"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "snipe_risk"
+        }
+      },
+      "synergies": {
+        "Genji": {
+          "score": 5,
+          "reason": "dive_support_duo"
+        },
+        "Tracer": {
+          "score": 5,
+          "reason": "flank_sustain"
+        },
+        "Roadhog": {
+          "score": 4,
+          "reason": "anti_anti_nade"
+        }
+      },
+      "sub_role": "Medic",
+      "health": 200
+    },
+    "Ramattra": {
+      "role": "Tank",
+      "archetype": [
+        "Brawl",
+        "Poke",
+        "Anti-Air"
+      ],
+      "mobility": 2,
+      "survivability": 4,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 4,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 3,
+        "sustain": 4,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 4,
+        "los_dependency": 4
+      },
+      "es": "En forma Nemesis, tus puñetazos atraviesan escudos. Usa el Ravenous Vortex para bajar a Pharah o Echo al suelo.",
+	"en": "Nemesis form negates shields. Ravenous Vortex can drag Pharah or Echo down.",
+      "counters": {
+        "Reinhardt": {
+          "score": 5,
+          "type": "punch_through_shield"
+        },
+        "Brigitte": {
+          "score": 5,
+          "type": "punch_through_shield"
+        },
+        "Sigma": {
+          "score": 4,
+          "type": "nemesis_pressure"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "nemesis_punches_deflect"
+        }
+      },
+      "countered_by": {
+        "Ana": {
+          "score": 5,
+          "type": "sleep_nemesis_form"
+        },
+        "Orisa": {
+          "score": 4,
+          "type": "javelin_interrupt"
+        },
+        "Bastion": {
+          "score": 5,
+          "type": "out_brawl_damage"
+        },
+        "Zenyatta": {
+          "score": 5,
+          "type": "discord_shred"
+        }
+      },
+      "synergies": {
+        "Lucio": {
+          "score": 5,
+          "reason": "speed_nemesis_chase"
+        },
+        "Ana": {
+          "score": 4,
+          "reason": "nano_annihilation"
+        },
+        "Mei": {
+          "score": 4,
+          "reason": "vortex_wall_combo"
+        }
+      },
+      "sub_role": "Stalwart",
+      "health": 550
+    },
+    "Lifeweaver": {
+      "role": "Support",
+      "archetype": [
+        "Main Healer",
+        "Defensive",
+        "Utility"
+      ],
+      "mobility": 4,
+      "survivability": 5,
+      "mechanical_difficulty": 3,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 1,
+        "squishy_pressure": 2,
+        "range": 3,
+        "burst": 1,
+        "sustain": 4,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 3,
+        "los_dependency": 5
+      },
+      "es": "Usa Life Grip para salvar a aliados que han cometido un error de posicionamiento o están bajo efectos de CC.",
+	"en": "Use Life Grip for saving team mates that are under CC effects or badly positioned.",
+      "counters": {
+        "Zarya": {
+          "score": 4,
+          "type": "grip_out_of_grav"
+        },
+        "Orisa": {
+          "score": 4,
+          "type": "platform_over_ult"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "platform_over_flux"
+        }
+      },
+      "countered_by": {
+        "Sombra": {
+          "score": 5,
+          "type": "emp_tree_destroy"
+        },
+        "Tracer": {
+          "score": 4,
+          "type": "large_hitbox_pressure"
+        },
+        "Genji": {
+          "score": 4,
+          "type": "dive_pressure"
+        },
+        "Ramattra": {
+          "score": 3,
+          "type": "vortex_brings_down_platform"
+        }
+      },
+      "synergies": {
+        "Roadhog": {
+          "score": 5,
+          "reason": "hook_life_grip_save"
+        },
+        "Bastion": {
+          "score": 4,
+          "reason": "high_ground_platform"
+        },
+        "Ana": {
+          "score": 4,
+          "reason": "protection_peel"
+        }
+      },
+      "sub_role": "Medic",
+      "health": 200
+    },
+    "Illari": {
+      "role": "Support",
+      "archetype": [
+        "Poke",
+        "Hitscan",
+        "Main Healer"
+      ],
+      "mobility": 3,
+      "survivability": 3,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 5,
+        "range": 4,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 4,
+        "cc_susceptibility": 2,
+        "los_dependency": 5
+      },
+      "es": "Esconde tu Pylon detrás de paredes o esquinas donde el enemigo no pueda dispararle pero cure a tu equipo.",
+	"en": "Hide your Pylon behind walls or on corners enemies can't shoot while healing your team.",
+      "counters": {
+        "Pharah": {
+          "score": 4,
+          "type": "hitscan_pressure"
+        },
+        "Lucio": {
+          "score": 4,
+          "type": "pylon_sustain_outheal"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "out_range_poke"
+        }
+      },
+      "countered_by": {
+        "D.Va": {
+          "score": 5,
+          "type": "matrix_ult_eat"
+        },
+        "Winston": {
+          "score": 5,
+          "type": "dive_pylon_destruction"
+        },
+        "Sombra": {
+          "score": 4,
+          "type": "hack_pylon_shutdown"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "deflect_ult_risk"
+        }
+      },
+      "synergies": {
+        "Sigma": {
+          "score": 5,
+          "reason": "poke_sustain_duo"
+        },
+        "Torbjorn": {
+          "score": 4,
+          "reason": "double_pylon_turret_def"
+        },
+        "Soldier: 76": {
+          "score": 4,
+          "reason": "crossfire_poke"
+        }
+      },
+      "sub_role": "Survivor",
+      "health": 200
+    },
+    "Mauga": {
+      "role": "Tank",
+      "archetype": [
+        "Bruiser",
+        "Frontline"
+      ],
+      "mobility": 2,
+      "survivability": 5,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 4,
+        "squishy_pressure": 3,
+        "range": 1,
+        "burst": 3,
+        "sustain": 4,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "es": "Usa Overrun para iniciar y separar al equipo rival; mantente con tu equipo para maximizar Cardiac Overdrive.",
+	"en": "Use Overrun to engage and split enemy team; keep close to your team to max Cardiac Overdrive.",
+      "counters": {
+        "Sojourn": {
+          "score": 5,
+          "type": "range_pressure"
+        },
+        "Venture": {
+          "score": 4,
+          "type": "burrow_engage"
+        },
+        "Hazard": {
+          "score": 3,
+          "type": "melee_pressure"
+        }
+      },
+      "countered_by": {
+        "Reinhardt": {
+          "score": 4,
+          "type": "shield_wall"
+        },
+        "Pharah": {
+          "score": 5,
+          "type": "air_pressure"
+        },
+        "Echo": {
+          "score": 4,
+          "type": "range_push"
+        }
+      },
+      "synergies": {
+        "Wuyang": {
+          "score": 5,
+          "reason": "healing_support"
+        },
+        "Juno": {
+          "score": 4,
+          "reason": "sustain_heal"
+        },
+        "Zarya": {
+          "score": 4,
+          "reason": "shield_bubble_combo"
+        }
+      },
+      "sub_role": "Bruiser",
+      "health": 600
+    },
+    "Venture": {
+      "role": "Damage",
+      "archetype": [
+        "Flanker",
+        "Brawler"
+      ],
+      "mobility": 4,
+      "survivability": 2,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 2,
+        "burst": 4,
+        "sustain": 2,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 4,
+        "los_dependency": 4
+      },
+      "es": "Controla tu Burrow para evitar daño y reposicionarte; usa Drill Dash para mantener presión.",
+	"en": "Manage your Burrow for avoiding damage and reposition; use Drill Dash for keeping pressure.",
+      "counters": {
+        "Zarya": {
+          "score": 5,
+          "type": "shield_wall"
+        },
+        "Reinhardt": {
+          "score": 4,
+          "type": "frontline_block"
+        },
+        "Winston": {
+          "score": 3,
+          "type": "jump_dive"
+        }
+      },
+      "countered_by": {
+        "Genji": {
+          "score": 5,
+          "type": "deflect"
+        },
+        "Wrecking Ball": {
+          "score": 4,
+          "type": "knockback"
+        },
+        "Symmetra": {
+          "score": 3,
+          "type": "energy_pressure"
+        }
+      },
+      "synergies": {
+        "Zenyatta": {
+          "score": 4,
+          "reason": "orb_damage"
+        },
+        "Tracer": {
+          "score": 3,
+          "reason": "double_flank"
+        },
+        "Mercy": {
+          "score": 3,
+          "reason": "damage_boost"
+        }
+      },
+      "sub_role": "Flanker",
+      "health": 200
+    },
+    "Juno": {
+      "role": "Support",
+      "archetype": [
+        "Healer",
+        "Utility"
+      ],
+      "mobility": 3,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 5,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 2,
+        "range": 3,
+        "burst": 1,
+        "sustain": 4,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 4,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "es": "Mantente en la retaguardia y gestiona bien tus cargas de mediblaster para mantener al equipo vivo.",
+	"en": "Play safe and properly manage your mediblaster charges in order to maintain your team.",
+      "counters": {
+        "D.Va": {
+          "score": 4,
+          "type": "mobility_pressure"
+        },
+        "Reaper": {
+          "score": 5,
+          "type": "close_range"
+        },
+        "Hazard": {
+          "score": 3,
+          "type": "burst_press"
+        }
+      },
+      "countered_by": {
+        "Sombra": {
+          "score": 5,
+          "type": "hack_disrupt"
+        },
+        "Venture": {
+          "score": 4,
+          "type": "dive_engage"
+        },
+        "Tracer": {
+          "score": 4,
+          "type": "high_mobility"
+        }
+      },
+      "synergies": {
+        "Mauga": {
+          "score": 4,
+          "reason": "tank_sustain"
+        },
+        "Zarya": {
+          "score": 5,
+          "reason": "bubble_protection"
+        },
+        "Freja": {
+          "score": 3,
+          "reason": "damage_amplify"
+        }
+      },
+      "sub_role": "Survivor",
+      "health": 200
+    },
+    "Hazard": {
+      "role": "Tank",
+      "archetype": [
+        "Stalwart",
+        "Engager"
+      ],
+      "mobility": 3,
+      "survivability": 4,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 3,
+        "range": 1,
+        "burst": 3,
+        "sustain": 4,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "es": "Utiliza Violent Leap para abrir agresiones y Jagged Wall para negar rutas.",
+	"en": "Use Violent Leap for initiate, and Jagged Wall to negate paths.",
+      "counters": {
+        "Sojourn": {
+          "score": 4,
+          "type": "range_pressure"
+        },
+        "Pharah": {
+          "score": 3,
+          "type": "air_pressure"
+        }
+      },
+      "countered_by": {
+        "Reinhardt": {
+          "score": 4,
+          "type": "shield_wall"
+        },
+        "Wrecking Ball": {
+          "score": 4,
+          "type": "disruption"
+        }
+      },
+      "synergies": {
+        "Juno": {
+          "score": 4,
+          "reason": "heal_protection"
+        },
+        "Zarya": {
+          "score": 4,
+          "reason": "bubble_combo"
+        }
+      },
+      "sub_role": "Stalwart",
+      "health": 550
+    },
+    "Freja": {
+      "role": "Damage",
+      "archetype": [
+        "Recon",
+        "Marksman"
+      ],
+      "mobility": 4,
+      "survivability": 2,
+      "mechanical_difficulty": 4,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 4,
+        "sustain": 2,
+        "poke": 4
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 4,
+        "los_dependency": 4
+      },
+      "es": "Aprovecha Updraft y Quick Dash para reposicionarte y asegurar tiros de Take Aim.",
+	"en": "Manage your Burrow for avoiding damage and reposition; use Drill Dash for keeping pressure.",
+      "counters": {
+        "Winston": {
+          "score": 5,
+          "type": "dive_pressure"
+        },
+        "Pharah": {
+          "score": 4,
+          "type": "air_domination"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "sniper_pressure"
+        },
+        "Reaper": {
+          "score": 4,
+          "type": "close_range"
+        }
+      },
+      "synergies": {
+        "Juno": {
+          "score": 4,
+          "reason": "sustain_support"
+        },
+        "Wuyang": {
+          "score": 3,
+          "reason": "heal_aid"
+        }
+      },
+      "sub_role": "Recon",
+      "health": 200
+    },
+    "Wuyang": {
+      "role": "Support",
+      "archetype": [
+        "Healing",
+        "Utility"
+      ],
+      "mobility": 3,
+      "survivability": 3,
+      "mechanical_difficulty": 4,
+      "team_dependency": 5,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 2,
+        "squishy_pressure": 3,
+        "range": 3,
+        "burst": 2,
+        "sustain": 4,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 4,
+        "los_dependency": 3
+      },
+      "es": "Mantén tus orbs y usa Guardian Blast para curar/control con tempo; coordina con tanks.",
+	"en": "Charge your orbs and use Guardian Blast for healing/control fight tempo; coordinate with your tank.",
+      "counters": {
+        "Sombra": {
+          "score": 5,
+          "type": "hack_disrupt"
+        },
+        "Reaper": {
+          "score": 4,
+          "type": "dive_push"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 4,
+          "type": "air_pressure"
+        },
+        "Hazard": {
+          "score": 3,
+          "type": "engage_push"
+        }
+      },
+      "synergies": {
+        "Mauga": {
+          "score": 5,
+          "reason": "heal_tank_combo"
+        },
+        "Vendetta": {
+          "score": 4,
+          "reason": "support_melee_dps"
+        },
+        "Freja": {
+          "score": 3,
+          "reason": "heal_damage_mix"
+        }
+      },
+      "sub_role": "Survivor",
+      "health": 200
+    },
+    "Vendetta": {
+      "role": "Damage",
+      "archetype": [
+        "Flanker",
+        "Melee"
+      ],
+      "mobility": 4,
+      "survivability": 3,
+      "mechanical_difficulty": 5,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 4,
+        "squishy_pressure": 5,
+        "range": 1,
+        "burst": 5,
+        "sustain": 3,
+        "poke": 1
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 4,
+        "los_dependency": 3
+      },
+      "es": "Aprovecha Whirlwind Dash y Soaring Slice para entrar y salir rápidamente del combate.",
+	"en": "Use Whirlwind Dash and Soaring Slice for quickly engage-disengage.",
+      "counters": {
+        "Winston": {
+          "score": 5,
+          "type": "dive_pressure"
+        },
+        "Zarya": {
+          "score": 4,
+          "type": "bubble_block"
+        }
+      },
+      "countered_by": {
+        "Pharah": {
+          "score": 5,
+          "type": "flight_advantage"
+        },
+        "Mercy": {
+          "score": 3,
+          "type": "sustain_heal"
+        }
+      },
+      "synergies": {
+        "Wuyang": {
+          "score": 4,
+          "reason": "heal_support"
+        },
+        "Mauga": {
+          "score": 3,
+          "reason": "aggressive_engage"
+        }
+      },
+      "sub_role": "Flanker",
+      "health": 225
+    },
+    "Anran": {
+      "role": "Damage",
+      "archetype": [
+        "Flanker",
+        "High-Mobility"
+      ],
+      "mobility": 5,
+      "survivability": 2,
+      "mechanical_difficulty": 5,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 2,
+        "tank_pressure": 3,
+        "squishy_pressure": 5,
+        "range": 2,
+        "burst": 5,
+        "sustain": 2,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 1,
+        "flank_vulnerability": 1,
+        "cc_susceptibility": 5,
+        "los_dependency": 4
+      },
+      "es": "Usa Inferno Rush para entrar agresivamente y Dancing Blaze para limpiar peleas en grupo.",
+	"en": "Use Inferno Rush for quickly engage or get a flank, and Dancing Blaze for group fights.",
+      "counters": {
+        "Ana": {
+          "score": 5,
+          "type": "anti_dive"
+        },
+        "Sigma": {
+          "score": 3,
+          "type": "barrier_control"
+        }
+      },
+      "countered_by": {
+        "Zarya": {
+          "score": 5,
+          "type": "bubble_block"
+        },
+        "Widowmaker": {
+          "score": 4,
+          "type": "sniper_pressure"
+        }
+      },
+      "synergies": {
+        "Wuyang": {
+          "score": 4,
+          "reason": "support_burns"
+        },
+        "Venture": {
+          "score": 3,
+          "reason": "double_flank"
+        }
+      },
+      "sub_role": "Flanker",
+      "health": 200
+    },
+    "Emre": {
+      "role": "Damage",
+      "sub_role": "Specialist",
+      "archetype": [
+        "Hitscan",
+        "Burst",
+        "Mobility"
+      ],
+      "mobility": 3,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 2,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 3,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "health": 200,
+      "es": "Synthetic Burst Rifle dispara 3 balas. Siphon Blaster roba vida. Pasivo Altered Vitals: regeneración de salud más rápida.",
+      "en": "Synthetic Burst Rifle shoots 3 bullets. Use Siphon Blaster for life steal. Passive (Altered Vitals): faster health regen.",
+      "counters": {
+        "Pharah": {
+          "score": 3,
+          "type": "hitscan_pressure"
+        },
+        "Echo": {
+          "score": 3,
+          "type": "burst_threat"
+        },
+        "Tracer": {
+          "score": 3,
+          "type": "grenade_zone"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "outrange_snipe"
+        },
+        "Genji": {
+          "score": 3,
+          "type": "deflect_burst"
+        },
+        "D.Va": {
+          "score": 3,
+          "type": "matrix_denial"
+        }
+      },
+      "synergies": {
+        "Mercy": {
+          "score": 4,
+          "reason": "damage_boost"
+        },
+        "Baptiste": {
+          "score": 3,
+          "reason": "window_ult"
+        },
+        "Ana": {
+          "score": 3,
+          "reason": "nano_protocol"
+        }
+      }
+    },
+    "Domina": {
+      "role": "Tank",
+      "sub_role": "Stalwart",
+      "archetype": [
+        "Poke",
+        "Shield",
+        "Control"
+      ],
+      "mobility": 2,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 3,
+      "damage_profile": {
+        "shield_break": 3,
+        "tank_pressure": 3,
+        "squishy_pressure": 4,
+        "range": 4,
+        "burst": 4,
+        "sustain": 3,
+        "poke": 5
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 4
+      },
+      "health": 600,
+      "es": "Photon Magnum dispara un rayo que culmina en un disparo de alto impacto. Usa el escudo de luz dura estratégicamente. Sonic Repulsors empujan enemigos. Pasivo Reconstruction: el daño con habilidades restaura escudos.",
+	"en": "Photon Magnum shoots a beam that canalizes into a high impact shoot. Use your shield strategically. Sonic Repulsors push enemies. Passive (Reconstruction): damage dealt with skills do regen shields.",
+      "counters": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "shield_snipe"
+        },
+        "Pharah": {
+          "score": 3,
+          "type": "repulsor_control"
+        },
+        "Hanzo": {
+          "score": 3,
+          "type": "shield_poke"
+        }
+      },
+      "countered_by": {
+        "Winston": {
+          "score": 4,
+          "type": "beam_contest"
+        },
+        "Zarya": {
+          "score": 4,
+          "type": "beam_fight"
+        },
+        "Symmetra": {
+          "score": 5,
+          "type": "beam_charge"
+        }
+      },
+      "synergies": {
+        "Widowmaker": {
+          "score": 4,
+          "reason": "shield_protection"
+        },
+        "Sojourn": {
+          "score": 3,
+          "reason": "poke_combo"
+        },
+        "Baptiste": {
+          "score": 3,
+          "reason": "barrier_window"
+        }
+      }
+    },
+    "Mizuki": {
+      "role": "Support",
+      "sub_role": "Survivor",
+      "archetype": [
+        "Projectile",
+        "Mobility",
+        "Chain-Heal"
+      ],
+      "mobility": 4,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 2,
+        "squishy_pressure": 3,
+        "range": 3,
+        "burst": 2,
+        "sustain": 3,
+        "poke": 3
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 3,
+        "flank_vulnerability": 3,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "health": 200,
+       "es": "La cuchilla giratoria rebota en paredes. Healing Kasa (sombrero) rebota entre aliados curando. Paper Doll te permite escapar y regresar. Tethering Chain obstaculiza al primer enemigo impactado. Pasivo Survivor: usar habilidades de movimiento activa regeneración.",
+      "en": "Spinning razor does bump on walls. Healing Kasa (hat) bumps between allies while healing. Paper Doll lets you escape and return. Tethering Chain obstructs first enemy impacted. Passive (Survivor): your movement skills do trigger health regen",
+      "counters": {
+        "Pharah": {
+          "score": 2,
+          "type": "projectile_spam"
+        },
+        "Genji": {
+          "score": 2,
+          "type": "wall_bounce"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "snipe_pick"
+        },
+        "Tracer": {
+          "score": 4,
+          "type": "flank_pressure"
+        },
+        "Sombra": {
+          "score": 4,
+          "type": "hack_escape"
+        }
+      },
+      "synergies": {
+        "Reinhardt": {
+          "score": 3,
+          "reason": "chain_heal_brawl"
+        },
+        "Lucio": {
+          "score": 3,
+          "reason": "speed_combo"
+        },
+        "Genji": {
+          "score": 3,
+          "reason": "dive_heal"
+        }
+      }
+    },
+    "Jetpack Cat": {
+      "role": "Support",
+      "sub_role": "Medic",
+      "archetype": [
+        "Aerial",
+        "Tow",
+        "Knockback"
+      ],
+      "mobility": 5,
+      "survivability": 3,
+      "mechanical_difficulty": 3,
+      "team_dependency": 4,
+      "damage_profile": {
+        "shield_break": 1,
+        "tank_pressure": 1,
+        "squishy_pressure": 2,
+        "range": 2,
+        "burst": 1,
+        "sustain": 3,
+        "poke": 2
+      },
+      "weakness_profile": {
+        "dive_vulnerability": 2,
+        "flank_vulnerability": 2,
+        "cc_susceptibility": 3,
+        "los_dependency": 3
+      },
+      "health": 200,
+     "es": "Bionic Pawjectiles cura aliados y daña enemigos (mid-range spread). Lifeline permite remolcar un aliado mientras lo curas. Frenetic Flight acelera tu vuelo. Purr cura en área y aumenta frecuencia con el tiempo, empuja enemigos al activar. Catnapper (Ult) te lanza a una ubicación derribando enemigos. Pasivo Medic: curar aliados te cura a ti.",
+	"en": "Bionic Pawjectiles heals allys and damages enemies (mid-range spread). Lifeline tows allys while healing them. Frenetic Flight speeds up your flight. Purr heals on area and builds up more rate, it pushes enemies on activation. Catnapper (Ult) throws you at desired location, pushing enemies. Passive (Medic): healing allies also heals you.",
+      "counters": {
+        "Pharah": {
+          "score": 2,
+          "type": "aerial_contest"
+        },
+        "Echo": {
+          "score": 2,
+          "type": "flight_mobility"
+        }
+      },
+      "countered_by": {
+        "Widowmaker": {
+          "score": 4,
+          "type": "aerial_snipe"
+        },
+        "Cassidy": {
+          "score": 4,
+          "type": "hitscan_air"
+        },
+        "Soldier: 76": {
+          "score": 3,
+          "type": "visor_track"
+        }
+      },
+      "synergies": {
+        "Pharah": {
+          "score": 4,
+          "reason": "aerial_duo"
+        },
+        "Echo": {
+          "score": 4,
+          "reason": "flight_pair"
+        },
+        "Mercy": {
+          "score": 3,
+          "reason": "aerial_trio"
+        }
+      }
+    }
+  }
+}
